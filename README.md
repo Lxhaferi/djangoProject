@@ -1,2 +1,2 @@
 # djangoProject
-MyProtofolio
+MyProtofolio django Framework
