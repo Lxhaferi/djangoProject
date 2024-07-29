@@ -33,6 +33,6 @@ def index(request):
         From: 
         {}
         '''.format(data['Message'], data['Email'])
-        send_mail(data['Subject'], Message, '', ['loreweblore@gmail.com'])
+        send_mail(data['Subject'], Message, '', ['test@test.com'])
 
     return render(request, 'index.html', context)
